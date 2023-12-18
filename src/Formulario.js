@@ -21,7 +21,7 @@ const handleCadastroFormulario = (event) => {
          profissao,
          termos:aceitaTermos,       
         })
-        console.log("Resposta da Api".formToJSON(response.data))
+        console.log("Resposta da Api", formToJSON(response.data))
     } catch  {
         console.error("ERROR AO FAZER SOLICITAÇÃO")
     }
